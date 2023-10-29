@@ -103,10 +103,10 @@ nav {
 .hero--photo {
   align-self: center;
   padding: 25px 77px;
-  /* height: 250px;
-  width: 400px; */
-  max-width: 400px;
- 
+  height: 350px;
+  width: 650px;
+  min-width: 400px;
+ display: flex;
 }
 
 .hero--title {
@@ -121,11 +121,14 @@ nav {
 .card {
  padding-left: 35px;
  padding-top: 50px;
- 
+  position: relative;
 }
 
 .card--photo {
-  display: block;
+  display: flex;
+  max-height: 235px;
+    border-radius: 9px;
+    margin-bottom: 9px;
 }
 
 .card--star {
@@ -143,8 +146,23 @@ nav {
   color: #918E9B;
 }
 
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
 
 
+.card--badge {
+  position: absolute;
+  background-color: aliceblue;
+  margin: 6px 6px;
+  padding: 2px 4px;
+  border-radius: 2px;
+  font-weight: bold;
+  line-height: 13px;
+}
 
 
 
