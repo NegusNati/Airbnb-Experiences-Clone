@@ -4,6 +4,7 @@ import star from "../assets/Star_1.png";
 
 
 function Card({ img, rating, reviewCount, country, title, price, badge }) {
+    
     let badgeText;
     if(badge === 0){
         badgeText = "SOLD OUT"
