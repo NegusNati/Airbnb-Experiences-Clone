@@ -9,6 +9,7 @@ import Datas from "./data.js";
 function App() {
 
   const passedData = Datas.map( data => {
+    //bout to change how the data is passed
     return <Card key={data.id} img={data.coverImg} rating={data.stats.rating} reviewCount={data.stats.reviewCount} country={data.location} title={data.title} price={data.price} badge={data.openSpots} />
   })
  
